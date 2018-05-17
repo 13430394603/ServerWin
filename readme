@@ -1,0 +1,15 @@
+项目结构解析：
+	com.clientwin.core
+		逻辑
+	com.clientwin.reci
+		接收服务器响应信息、一般信息和陌生人请求
+	com.clientwin.send
+		发送服务器信息--包括聊天信息、请求信息
+	com.clientwin.main
+		主要
+	com.clientwin.pool
+		池
+	com.clientwin.service
+		接口
+		
+    使用用户在线表对用户池的代替，因为用户池并不能删除其中的用户因此不能判断离线在线
